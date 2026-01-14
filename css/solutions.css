@@ -59,5 +59,25 @@ a.nav-item:first-child {
   color:#0c2ec2;
 }
 
+/* 13.💭 Virgolette alla citazione */
 
+div.quote-box {
+  position: relative;
+}
 
+div.quote-box p::before {
+  content: "\"";
+  position: absolute;
+  left: 10px;
+  top: -15px;
+  font-size: 4rem;
+  color: #ffffff5e;
+}
+
+div.quote-box p::after {
+  content: "\"";
+  position: absolute;
+  right: 20px;
+  font-size: 4rem;
+  color: #ffffff5e;
+}
