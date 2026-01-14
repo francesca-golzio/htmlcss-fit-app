@@ -1,8 +1,24 @@
 
 /*  2.🌟 Evidenziare la terza stat card */
+
 .stats-grid:last-child {
     background-image: linear-gradient(90deg, #677de9, #7356b2);
 }
 .stats-grid:last-child > * {
-color: #fff;
+  color: #fff;
+}
+
+/* 3.✨ Effetto hover sulle stat cards */
+
+.stats-container {
+  position: relative;
+}
+
+.stats-grid:hover {
+  position: relative;
+}
+
+.stats-container > .stats-grid:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
