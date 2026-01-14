@@ -51,4 +51,13 @@ div:last-child.exercise-item {
   background-color: #7356b2;
 }
 
+/* 11-12. 🧭 Migliorie alla navigazione */
+
+.nav-item:hover,
+a.nav-item:first-child {
+  background-color: #253443;
+  color:#0c2ec2;
+}
+
+
 
