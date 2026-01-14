@@ -1,89 +1,120 @@
-/* 1.🔥 Icona fuoco nella prima stat card */
+/* #region 1.🔥 */
 
-.stats-container .stats-grid:first-child::before {
+  /* Icona fuoco nella prima stat card */
+
+  .stats-container .stats-grid:first-child::before {
     content: "🔥";
-}
+  }
 
+/* #endregion 1.🔥 */
 
-/*  2.🌟 Evidenziare la terza stat card */
+/*  #region 2.🌟 */
 
-.stats-grid:last-child {
+  /*  Evidenziare la terza stat card */
+
+  .stats-grid:last-child {
     background-image: linear-gradient(90deg, #677de9, #7356b2);
-}
-.stats-grid:last-child > * {
-  color: #fff;
-}
+  }
+  .stats-grid:last-child > * {
+    color: #fff;
+  }
 
-/* 3.✨ Effetto hover sulle stat cards */
+/*  #endregion 2.🌟 */
 
-.stats-container {
-  position: relative;
-}
+/* #region 3.✨*/
 
-.stats-grid:hover {
-  position: relative;
-}
+  /* Effetto hover sulle stat cards */
 
-.stats-container > .stats-grid:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
-}
+  .stats-container {
+    position: relative;
+  }
 
-/* 4.📌 Evidenziare il secondo piano allenamento */
+  .stats-grid:hover {
+    position: relative;
+  }
 
-article.workout-plan:nth-child(3) {
-  background-color: #FFF8BA;
-  border-left: 5px solid #F39C12;
- }
+  .stats-container > .stats-grid:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
+  }
 
-/* 5.🟢 Bordi verdi per primo e ultimo esercizio */
+/* #endregion 3.✨*/
 
-div:first-child.exercise-item,
-div:last-child.exercise-item {
-  background: #f0fff4;
-	border-left:  4px solid #2ECC71;
-}
+/* #region 4.📌 */
 
-/* 9.🔘 Miglioramenti al button */
+  /* Evidenziare il secondo piano allenamento */
 
-.goals-container {
-  position: relative;
-}
+  article.workout-plan:nth-child(3) {
+    background-color: #FFF8BA;
+    border-left: 5px solid #F39C12;
+  }
 
-.save-btn:hover {
-  position: relative;  
-  transform: translateY(-2px);
-  box-shadow: 0 5px 15px #0c2ec2;
-  background-color: #7356b2;
-}
+/* #endregion 4.📌 */
 
-/* 11-12. 🧭 Migliorie alla navigazione */
+/* #region 5.🟢 */
 
-.nav-item:hover,
-a.nav-item:first-child {
-  background-color: #253443;
-  color:#0c2ec2;
-}
+  /* Bordi verdi per primo e ultimo esercizio */
 
-/* 13.💭 Virgolette alla citazione */
+  div:first-child.exercise-item,
+  div:last-child.exercise-item {
+    background: #f0fff4;
+    border-left:  4px solid #2ECC71;
+  }
 
-div.quote-box {
-  position: relative;
-}
+/* #endregion 5.🟢 */
 
-div.quote-box p::before {
-  content: "\"";
-  position: absolute;
-  left: 10px;
-  top: -15px;
-  font-size: 4rem;
-  color: #ffffff5e;
-}
+/* #region 9.🔘 */
 
-div.quote-box p::after {
-  content: "\"";
-  position: absolute;
-  right: 20px;
-  font-size: 4rem;
-  color: #ffffff5e;
-}
+  /* Miglioramenti al button */
+
+  .goals-container {
+    position: relative;
+  }
+
+  .save-btn:hover {
+    position: relative;  
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px #0c2ec2;
+    background-color: #7356b2;
+  }
+
+/* #endregion 9.🔘 */
+
+/* #region 11-12.🧭 */
+
+  /* Migliorie alla navigazione */
+
+  .nav-item:hover,
+  a.nav-item:first-child {
+    background-color: #253443;
+    color:#0c2ec2;
+  }
+
+/* #endregion 11-12.🧭 */
+
+/* #region 13.💭 */
+
+  /* Virgolette alla citazione */
+
+  div.quote-box {
+    position: relative;
+  }
+
+  div.quote-box p::before {
+    content: "\"";
+    position: absolute;
+    left: 10px;
+    top: -15px;
+    font-size: 4rem;
+    color: #ffffff5e;
+  }
+
+  div.quote-box p::after {
+    content: "\"";
+    position: absolute;
+    right: 20px;
+    font-size: 4rem;
+    color: #ffffff5e;
+  }
+
+/* #endregion 13.💭 */
