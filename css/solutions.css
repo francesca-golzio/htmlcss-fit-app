@@ -38,7 +38,17 @@ div:last-child.exercise-item {
 	border-left:  4px solid #2ECC71;
 }
 
+/* 9.🔘 Miglioramenti al button */
 
+.goals-container {
+  position: relative;
+}
 
+.save-btn:hover {
+  position: relative;  
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px #0c2ec2;
+  background-color: #7356b2;
+}
 
 
