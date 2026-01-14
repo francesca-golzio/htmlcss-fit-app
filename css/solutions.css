@@ -22,3 +22,11 @@
   transform: translateY(-5px);
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.5);
 }
+
+/* 4.📌 Evidenziare il secondo piano allenamento */
+
+article.workout-plan:nth-child(3) {
+  background-color: #FFF8BA;
+  border-left: 4px solid #F39C12;
+ }
+
