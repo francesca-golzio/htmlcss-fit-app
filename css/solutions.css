@@ -63,6 +63,15 @@
 
 /* #endregion 5.🟢 */
 
+/* #region 6.⚡ */
+
+/* Icona fulmine negli esercizi pari */
+
+div:nth-child(even).exercise-item::before {
+  content: "⚡";
+}
+/* #endregion 6.⚡ */
+
 /* #region 9.🔘 */
 
   /* Miglioramenti al button */
